@@ -23,7 +23,6 @@ int main(int argc, char** argv) {
 
     std::cout << "Un-Ordered Map" << std::endl;
     hm.unOrderedMap();
-    
 }
 
 void HashMap::orderedMap() {

@@ -65,6 +65,5 @@
         "string": "cpp",
         "string_view": "cpp",
         "*.dat": "cpp"
-    },
-    "cmake.configureOnOpen": false
+    }
 }
