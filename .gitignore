@@ -6,6 +6,9 @@
 !.vscode/extensions.json
 build/*
 
+# Swap files
+*.swp
+
 # Prerequisites
 *.d
 

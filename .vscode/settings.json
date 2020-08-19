@@ -65,5 +65,6 @@
         "string": "cpp",
         "string_view": "cpp",
         "*.dat": "cpp"
-    }
+    },
+    "C_Cpp.loggingLevel": "Debug"
 }
