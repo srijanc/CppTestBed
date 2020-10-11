@@ -64,7 +64,14 @@
         "set": "cpp",
         "string": "cpp",
         "string_view": "cpp",
-        "*.dat": "cpp"
+        "*.dat": "cpp",
+        "csetjmp": "cpp",
+        "forward_list": "cpp",
+        "unordered_set": "cpp",
+        "scoped_allocator": "cpp",
+        "valarray": "cpp",
+        "cuchar": "cpp",
+        "shared_mutex": "cpp"
     },
     "C_Cpp.loggingLevel": "Debug"
 }
