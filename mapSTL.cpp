@@ -35,9 +35,11 @@ class HashMap {
 
 int main(int argc, char** argv) {
 
-    int i = 0, c = 0;
-    for(;i<10;)
-        std::cout << __DATE__ << " : " << __TIMESTAMP__ << " : " << i++ << " = " << ++c << std::endl;
+
+    std::cout << std::abs(2-5) << std::endl;
+    // int i = 0, c = 0;
+    // for(;i<10;)
+    //     std::cout << __DATE__ << " : " << __TIMESTAMP__ << " : " << i++ << " = " << ++c << std::endl;
     // HashMap* hm = new HashMap();
 
     // std::cout << "Ordered Map" << std::endl;
@@ -73,6 +75,19 @@ int main(int argc, char** argv) {
     // }
 
     // std::cout << cmdoutput << std::endl;
+
+    // try {
+    //         Server::compute(A, B);
+    //     }
+    // catch (std::bad_alloc& error) {
+    //     std::cout << "Not enough memory" << std::endl;
+    // }
+    // catch (std::exception& error) {
+    //     std::cout << "Exception" << error.what() << std::endl;
+    // }
+    // catch(...) {
+    //     std::cout << "Other Exception" << std::endl;
+    // }
 }
 
 void HashMap::ArrayTrial() {
