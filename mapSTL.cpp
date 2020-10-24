@@ -34,8 +34,6 @@ class HashMap {
 };
 
 int main(int argc, char** argv) {
-
-
     std::cout << std::abs(2-5) << std::endl;
     // int i = 0, c = 0;
     // for(;i<10;)
