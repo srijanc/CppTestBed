@@ -1,13 +1,11 @@
 #include <iostream>
 
-typedef struct List
-{
+typedef struct List {
     int data;
     struct List* next;
 } Node;
 
-class Stack
-{
+class Stack {
     Node* node;
     Stack() {
         node = nullptr;
@@ -31,7 +29,6 @@ int Stack::Pop() {
     node = node->next;
     free(temp);
 }
-
 
 int main(int argc, char** argv) {
     struct Stack* rootNode = nullptr;
