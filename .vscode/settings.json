@@ -71,7 +71,13 @@
         "scoped_allocator": "cpp",
         "valarray": "cpp",
         "cuchar": "cpp",
-        "shared_mutex": "cpp"
+        "shared_mutex": "cpp",
+        "bit": "cpp",
+        "compare": "cpp",
+        "concepts": "cpp",
+        "numbers": "cpp",
+        "semaphore": "cpp",
+        "stop_token": "cpp"
     },
     "C_Cpp.loggingLevel": "Debug"
 }
